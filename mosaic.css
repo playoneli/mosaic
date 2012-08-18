@@ -1,0 +1,20 @@
+#mosaic{
+    background: url(http://lorempixel.com/460/460) center no-repeat;
+    width: 460px;
+    height: 460px;
+    margin: 40px auto;
+}
+
+.mTile{
+    float: left;
+    background: rgba(0,0,0,0.7);
+    border: solid black 1px;
+}
+
+.mTile:hover{
+    background: rgba(255,255,255,0.3);
+}
+
+.mMarked{
+    background: transparent;
+}

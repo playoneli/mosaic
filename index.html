@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>    
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="mosaic.css">
+</head>
+<body>
+<div id="mosaic"></div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="wtooltip.min.js"></script> <!-- include the tool tip script -->
+<script type="text/javascript" src="mosaic.js"></script><!--include the mosaic making code-->
+<script type="text/javascript">
+    var arr = [{'name':'1','value':true},{'name':'2','value':false},{'name':'3','value':false},{'name':'4','value':true},{'name':'5','value':false},{'name':'6','value':false},{'name':'7','value':false},{'name':'8','value':true},{'name':'9','value':false},{'name':'10','value':false},{'name':'11','value':false},{'name':'12','value':false},{'name':'13','value':false},{'name':'14','value':false},{'name':'15','value':false},{'name':'16','value':false},{'name':'17','value':false}]
+    $('#mosaic').mosaic(arr);
+</script>
+</body>
+</html>
